@@ -52,3 +52,26 @@ h2 {
 .simple-hex-2 {
   color: #a5f; 
 }
+
+/* valor rgb */
+.rgb {
+  color: rgb(255, 0, 0); 
+}
+
+.mixed-rgb {
+  color: rgb(199, 21, 47)
+}
+
+/* valor rgba */
+.rgba {
+  color: rgba(100, 199,45, 0.3);
+}
+
+/* valor hsl */
+.hsl1 {
+  color: hsl(100, 20%, 50%);
+}
+
+.hsl2 {
+  color: hsl(201, 82%, 48%);
+}
