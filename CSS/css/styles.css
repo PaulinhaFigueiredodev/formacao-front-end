@@ -17,7 +17,7 @@ p {
 
 /* ids */
 
-#exclusive-title{
+#exclusive-title {
   background-color: purple;
   color: yellow;
   padding: 40px;
@@ -27,10 +27,28 @@ p {
 h2 {
   border-bottom: 2px solid red;
 }
-.titulo{
+.titulo {
   border-bottom: 3px solid blue;
 }
 
 #algum-titulo {
   border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+  color: crimson; 
+}
+/* valor hexadecimal */
+.color-hex{
+  color: #FBC305;
+}
+
+/* aprofundando em hex */ 
+.simple-hex {
+  color: #333; 
+}
+
+.simple-hex-2 {
+  color: #a5f; 
 }
