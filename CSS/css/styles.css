@@ -106,3 +106,24 @@ h2 {
   background-color: rgba(90, 120, 20, 0.2);
   color: #000;
 }
+
+/* BG image */
+.bg-image {
+  background-image: url('../img/javaScript.png');
+  padding: 10px;
+  color: yellow;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url('../img/html\ e\ css.png');
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+
+}
