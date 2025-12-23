@@ -125,5 +125,18 @@ h2 {
 .centered-bg {
   background-position: center;
   background-size: cover;
+}
 
+/* Altura e largura */
+.height-width{
+  height: 200px;
+  width: 100px;
+  background-color: #FF6200;
+  color: #fff;
+}
+
+.height-width-2{
+  height: 300px;
+  background-color: #3B85FA;
+  color: #fff;
 }
