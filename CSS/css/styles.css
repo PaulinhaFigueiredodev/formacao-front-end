@@ -140,3 +140,14 @@ h2 {
   background-color: #3B85FA;
   color: #fff;
 }
+
+/* Padding */
+.without-padding,
+.padding{
+  background-color: #111;
+  color: #fff;
+}
+
+.padding{
+  padding: 20px;
+}
