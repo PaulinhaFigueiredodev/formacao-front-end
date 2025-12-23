@@ -151,3 +151,13 @@ h2 {
 .padding{
   padding: 20px;
 }
+
+/* Padding individual - em diferentes direcoes */
+.padding-individual{
+  background-color: #222;
+  color: #f7ae38;
+  padding-top: 25px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+}
