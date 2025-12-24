@@ -163,7 +163,9 @@ h2 {
 }
 
 .padding-directions{
-  background-color: dimgray;
+  background-color: #FF6200;
+  color: #fff;
+  width: 200px;
   padding: 200px 90px 100px 150px ;
 }
 
@@ -182,6 +184,17 @@ h2 {
 }
 
 /* Padding e width */
-.padding-width{
+.without-border-box{
+  background-color: #666;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+}
 
+.border-box{
+  background-color: #888;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
 }
