@@ -162,6 +162,11 @@ h2 {
   padding-right: 100px;
 }
 
+.padding-directions{
+  background-color: dimgray;
+  padding: 200px 90px 100px 150px ;
+}
+
 /* Shorthand padding */
 .shorthand-padding{
   background-color: #444;
@@ -174,4 +179,9 @@ h2 {
   color: #fff;
   padding: 10px 20px; /* vertical horizontal */
   /* padding: 10px 20px 10px 20px; */
+}
+
+/* Padding e width */
+.padding-width{
+
 }
