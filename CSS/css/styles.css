@@ -191,10 +191,22 @@ h2 {
   padding: 50px;
 }
 
+/* Box sizing */
 .border-box{
   background-color: #888;
   color: #fff;
   width: 400px;
   padding: 50px;
   box-sizing: border-box;
+}
+
+/* Bordas */
+.border{
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.border-2{
+  border: 5px solid  #333;
+  padding: 25px;
 }
