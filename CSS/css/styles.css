@@ -2,6 +2,15 @@ body {
   padding-bottom: 500px;
 }
 
+header{
+  background-color: #cbcbcb;
+  color: #800;
+  height: 50px;
+  text-align: center;
+}
+
+
+
 h3 {
   color: green;
 }
@@ -25,9 +34,11 @@ p {
 }
 
 /* ordem das regras CSS aplicadas aqui */
+/**
 h2 {
   border-bottom: 2px solid red;
 }
+*/
 .titulo {
   border-bottom: 3px solid blue;
 }
@@ -290,3 +301,72 @@ h2 {
   background-color: #eee;
 }
 
+/* Text align */
+
+.text-aligned{
+  background-color: #888;
+  color: #fff;
+  text-align: right;
+}
+
+/* centralizando */
+.container-center{
+  background-color: #d6d5d5;
+  text-align: center;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/** Text decoration */
+.underline{
+  text-decoration: underline;
+}
+
+.line-trough{
+  text-decoration: line-through;
+}
+
+.remove-underline{
+  text-decoration: none;
+  color:#800;
+}
+
+/* Transformacao de texto */
+.upper{
+  text-transform: uppercase;
+
+}
+
+.lower{
+text-transform: lowercase;
+}
+
+/* Letter spacing (Espacamento entre letras) */
+.spacing{
+  letter-spacing: 10px;
+}
+
+/* Fontes */
+.serif{
+  font-family: Georgia;
+
+}
+
+.sans-serif{
+  font-family: Helvetica;
+
+}
+
+.monospace{
+  font-family: monospace;
+
+}
+
+.cursive{
+  font-family: cursive;
+
+}
+
+.fantasy{
+  font-family: fantasy;
+}
