@@ -16,7 +16,7 @@ p {
   padding: 5px;
 }
 
-/* ids */
+/* id's */
 
 #exclusive-title {
   background-color: purple;
@@ -212,7 +212,6 @@ h2 {
 }
 
 /* Borda individual */
-
 .border-top{
   border-top: 3px solid #FF6200;
   background-color: #D3D3D3;
@@ -253,7 +252,6 @@ h2 {
 }
 
 /* Margin */
-
 .margin{
   color: #fff;
   margin: 10px;
@@ -278,5 +276,17 @@ h2 {
   color: #fff;
   background-color: #800;
   margin: 50px 25px 50px 75px;/* top right bottom left */
+}
+
+/* Box model */
+/* Contem todas as propriedades anteriores*/
+.box-model{
+  margin: 20px;
+  padding: 15px 25px;
+  border: 1px solid #FF6200;
+  border-radius: 7px;
+  width: 200px;
+  height: 100px;
+  background-color: #eee;
 }
 
