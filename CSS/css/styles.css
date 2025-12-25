@@ -254,6 +254,29 @@ h2 {
 
 /* Margin */
 
+.margin{
+  color: #fff;
+  margin: 10px;
+  background-color: #222;
 
+}
 
+.margin-top{
+  color: #fff;
+  margin-top: 10px;
+  background-color: #555;
+  padding: 10px;
+}
+
+.margin-shorthand{
+  color: #fff;
+  background-color: #807878;
+  margin: 10px 10px;
+}
+
+.margin-directions{
+  color: #fff;
+  background-color: #800;
+  margin: 50px 25px 50px 75px;/* top right bottom left */
+}
 
