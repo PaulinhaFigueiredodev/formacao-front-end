@@ -210,3 +210,50 @@ h2 {
   border: 5px solid  #333;
   padding: 25px;
 }
+
+/* Borda individual */
+
+.border-top{
+  border-top: 3px solid #FF6200;
+  background-color: #D3D3D3;
+  padding: 25px;
+}
+
+.border-right{
+  border-right: 3px solid #FF6200;
+  background-color: #D3D3D3;
+  padding: 25px;
+}
+
+.border-bottom{
+  border-bottom: 3px solid #FF6200;
+  background-color: #D3D3D3;
+  padding: 25px;
+}
+
+.border-left{
+  border-left: 5px double #FF6200; /* double -> borda dobrada */
+  background-color: #D3D3D3;
+  padding: 25px;
+}
+
+/* Borda arredondada */
+.rounded-p{
+  border: 1px solid #FF6200;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.rounded-p-2{
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #d3d3d3;
+
+}
+
+/* Margin */
+
+
+
+
