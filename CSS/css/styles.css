@@ -2,14 +2,12 @@ body {
   padding-bottom: 500px;
 }
 
-header{
+header {
   background-color: #cbcbcb;
   color: #800;
   height: 50px;
   text-align: center;
 }
-
-
 
 h3 {
   color: green;
@@ -49,34 +47,34 @@ h2 {
 
 /* nome de cores */
 .color-name {
-  color: crimson; 
+  color: crimson;
 }
 /* valor hexadecimal */
-.color-hex{
-  color: #FBC305;
+.color-hex {
+  color: #fbc305;
 }
 
-/* aprofundando em hex */ 
+/* aprofundando em hex */
 .simple-hex {
-  color: #333; 
+  color: #333;
 }
 
 .simple-hex-2 {
-  color: #a5f; 
+  color: #a5f;
 }
 
 /* valor rgb */
 .rgb {
-  color: rgb(255, 0, 0); 
+  color: rgb(255, 0, 0);
 }
 
 .mixed-rgb {
-  color: rgb(199, 21, 47)
+  color: rgb(199, 21, 47);
 }
 
 /* valor rgba */
 .rgba {
-  color: rgba(100, 199,45, 0.3);
+  color: rgba(100, 199, 45, 0.3);
 }
 
 /* valor hsl */
@@ -120,7 +118,7 @@ h2 {
 
 /* BG image */
 .bg-image {
-  background-image: url('../img/javaScript.png');
+  background-image: url("../img/javaScript.png");
   padding: 10px;
   color: yellow;
 }
@@ -130,7 +128,7 @@ h2 {
 .centered-bg {
   height: 400px;
   width: 400px;
-  background-image: url('../img/html\ e\ css.png');
+  background-image: url("../img/html\ e\ css.png");
 }
 
 .centered-bg {
@@ -139,32 +137,32 @@ h2 {
 }
 
 /* Altura e largura */
-.height-width{
+.height-width {
   height: 200px;
   width: 100px;
-  background-color: #FF6200;
+  background-color: #ff6200;
   color: #fff;
 }
 
-.height-width-2{
+.height-width-2 {
   height: 300px;
-  background-color: #3B85FA;
+  background-color: #3b85fa;
   color: #fff;
 }
 
 /* Padding */
 .without-padding,
-.padding{
+.padding {
   background-color: #111;
   color: #fff;
 }
 
-.padding{
+.padding {
   padding: 20px;
 }
 
 /* Padding individual - em diferentes direcoes */
-.padding-individual{
+.padding-individual {
   background-color: #222;
   color: #f7ae38;
   padding-top: 25px;
@@ -173,21 +171,21 @@ h2 {
   padding-right: 100px;
 }
 
-.padding-directions{
-  background-color: #FF6200;
+.padding-directions {
+  background-color: #ff6200;
   color: #fff;
   width: 200px;
-  padding: 200px 90px 100px 150px ;
+  padding: 200px 90px 100px 150px;
 }
 
 /* Shorthand padding */
-.shorthand-padding{
+.shorthand-padding {
   background-color: #444;
   color: #fff;
   padding: 6px 12px 18px 24px; /* top right bottom left */
 }
 
-.shorthand-padding-2{
+.shorthand-padding-2 {
   background-color: #666;
   color: #fff;
   padding: 10px 20px; /* vertical horizontal */
@@ -195,7 +193,7 @@ h2 {
 }
 
 /* Padding e width */
-.without-border-box{
+.without-border-box {
   background-color: #666;
   color: #fff;
   width: 400px;
@@ -203,7 +201,7 @@ h2 {
 }
 
 /* Box sizing */
-.border-box{
+.border-box {
   background-color: #888;
   color: #fff;
   width: 400px;
@@ -212,89 +210,87 @@ h2 {
 }
 
 /* Bordas */
-.border{
+.border {
   border: 5px solid red;
   padding: 10px;
 }
 
-.border-2{
-  border: 5px solid  #333;
+.border-2 {
+  border: 5px solid #333;
   padding: 25px;
 }
 
 /* Borda individual */
-.border-top{
-  border-top: 3px solid #FF6200;
-  background-color: #D3D3D3;
+.border-top {
+  border-top: 3px solid #ff6200;
+  background-color: #d3d3d3;
   padding: 25px;
 }
 
-.border-right{
-  border-right: 3px solid #FF6200;
-  background-color: #D3D3D3;
+.border-right {
+  border-right: 3px solid #ff6200;
+  background-color: #d3d3d3;
   padding: 25px;
 }
 
-.border-bottom{
-  border-bottom: 3px solid #FF6200;
-  background-color: #D3D3D3;
+.border-bottom {
+  border-bottom: 3px solid #ff6200;
+  background-color: #d3d3d3;
   padding: 25px;
 }
 
-.border-left{
-  border-left: 5px double #FF6200; /* double -> borda dobrada */
-  background-color: #D3D3D3;
+.border-left {
+  border-left: 5px double #ff6200; /* double -> borda dobrada */
+  background-color: #d3d3d3;
   padding: 25px;
 }
 
 /* Borda arredondada */
-.rounded-p{
-  border: 1px solid #FF6200;
+.rounded-p {
+  border: 1px solid #ff6200;
   background-color: #eee;
   padding: 15px;
   border-radius: 15px;
 }
 
-.rounded-p-2{
+.rounded-p-2 {
   border-radius: 15px;
   padding: 15px;
   background-color: #d3d3d3;
-
 }
 
 /* Margin */
-.margin{
+.margin {
   color: #fff;
   margin: 10px;
   background-color: #222;
-
 }
 
-.margin-top{
+.margin-top {
   color: #fff;
   margin-top: 10px;
   background-color: #555;
   padding: 10px;
 }
 
-.margin-shorthand{
+.margin-shorthand {
   color: #fff;
   background-color: #807878;
   margin: 10px 10px;
 }
 
-.margin-directions{
+.margin-directions {
   color: #fff;
   background-color: #800;
-  margin: 50px 25px 50px 75px;/* top right bottom left */
+  margin: 50px 25px 50px 75px; /* top right bottom left */
 }
 
 /* Box model */
 /* Contem todas as propriedades anteriores*/
-.box-model{
+.box-model {
   margin: 20px;
   padding: 15px 25px;
-  border: 1px solid #FF6200;
+  border: 1px solid #ff6200;
   border-radius: 7px;
   width: 200px;
   height: 100px;
@@ -303,14 +299,14 @@ h2 {
 
 /* Text align */
 
-.text-aligned{
+.text-aligned {
   background-color: #888;
   color: #fff;
   text-align: right;
 }
 
 /* centralizando */
-.container-center{
+.container-center {
   background-color: #d6d5d5;
   text-align: center;
   width: 100%;
@@ -318,101 +314,94 @@ h2 {
 }
 
 /** Text decoration */
-.underline{
+.underline {
   text-decoration: underline;
 }
 
-.line-trough{
+.line-trough {
   text-decoration: line-through;
 }
 
-.remove-underline{
+.remove-underline {
   text-decoration: none;
-  color:#800;
+  color: #800;
 }
 
 /* Transformacao de texto */
-.upper{
+.upper {
   text-transform: uppercase;
-
 }
 
-.lower{
-text-transform: lowercase;
+.lower {
+  text-transform: lowercase;
 }
 
 /* Letter spacing (Espacamento entre letras) */
-.spacing{
+.spacing {
   letter-spacing: 10px;
 }
 
 /* Fontes */
-.serif{
+.serif {
   font-family: Georgia;
-
 }
 
-.sans-serif{
+.sans-serif {
   font-family: Helvetica;
-
 }
 
-.monospace{
+.monospace {
   font-family: monospace;
-
 }
 
-.cursive{
+.cursive {
   font-family: cursive;
-
 }
 
-.fantasy{
+.fantasy {
   font-family: fantasy;
 }
 
 /* Font style (Estilo de fonte) */
-.italic{
+.italic {
   font-style: italic;
-
 }
 
-.oblique{
+.oblique {
   font-style: oblique;
-
 }
 
 /* Font weight  */
-.thin, .bold, .bolder {
- font-family: Helvetica;
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
 }
 
 .thin {
   font-weight: 100;
 }
 
-.bold{
+.bold {
   font-weight: 600;
-
 }
 
-.bolder{
+.bolder {
   font-weight: 900;
 }
 
 /* Font size (tamanho de fonte) */
 
-.small{
+.small {
   font-size: 16px;
-
 }
 
-.large{
+.large {
   font-size: 50px;
 }
 
 /* Display */
-.inline-box{
+.inline-box {
   width: 50px;
   height: 50px;
   background-color: #4f8;
@@ -420,9 +409,14 @@ text-transform: lowercase;
   display: inline-block;
 }
 
-.block{
+.block {
   background-color: #333;
   display: block;
   margin: 10px;
-  color: #fff
+  color: #fff;
+}
+
+/* Escondendo elementos */
+.invisible {
+  display: none;
 }
