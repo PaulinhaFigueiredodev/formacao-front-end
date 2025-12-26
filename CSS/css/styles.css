@@ -1,0 +1,533 @@
+body {
+  padding-bottom: 500px;
+}
+
+header {
+  background-color: #cbcbcb;
+  color: #800;
+  height: 50px;
+  text-align: center;
+}
+
+h3 {
+  color: green;
+}
+/*
+p {
+  color: royalblue;
+}
+*/
+.paragraph {
+  background-color: #000;
+  color: aqua;
+  padding: 5px;
+}
+
+/* id's */
+
+#exclusive-title {
+  background-color: purple;
+  color: yellow;
+  padding: 40px;
+}
+
+/* ordem das regras CSS aplicadas aqui */
+/**
+h2 {
+  border-bottom: 2px solid red;
+}
+*/
+.titulo {
+  border-bottom: 3px solid blue;
+}
+
+#algum-titulo {
+  border-bottom: 4px solid green;
+}
+
+/* nome de cores */
+.color-name {
+  color: crimson;
+}
+/* valor hexadecimal */
+.color-hex {
+  color: #fbc305;
+}
+
+/* aprofundando em hex */
+.simple-hex {
+  color: #333;
+}
+
+.simple-hex-2 {
+  color: #a5f;
+}
+
+/* valor rgb */
+.rgb {
+  color: rgb(255, 0, 0);
+}
+
+.mixed-rgb {
+  color: rgb(199, 21, 47);
+}
+
+/* valor rgba */
+.rgba {
+  color: rgba(100, 199, 45, 0.3);
+}
+
+/* valor hsl */
+.hsl1 {
+  color: hsl(100, 20%, 50%);
+}
+
+.hsl2 {
+  color: hsl(201, 82%, 48%);
+}
+
+/* valor de background-color */
+.bg {
+  background-color: #000;
+  color: yellow;
+}
+
+.bg2 {
+  background-color: rgb(200, 20, 40);
+  color: #00eaff;
+}
+
+/* opacidade no bg */
+.bg-opacity {
+  background-color: green;
+  opacity: 0.2;
+  padding: 2px;
+}
+.bg-opacity2 {
+  background-color: #999;
+  color: #000;
+  opacity: 0.8;
+  padding: 2px;
+}
+
+/* RGBA com opacidade */
+.rgba-opacity {
+  background-color: rgba(90, 120, 20, 0.2);
+  color: #000;
+}
+
+/* BG image */
+.bg-image {
+  background-image: url("../img/javaScript.png");
+  padding: 10px;
+  color: yellow;
+}
+
+/* Centralizando bg image */
+.not-centered-bg,
+.centered-bg {
+  height: 400px;
+  width: 400px;
+  background-image: url("../img/html\ e\ css.png");
+}
+
+.centered-bg {
+  background-position: center;
+  background-size: cover;
+}
+
+/* Altura e largura */
+.height-width {
+  height: 200px;
+  width: 100px;
+  background-color: #ff6200;
+  color: #fff;
+}
+
+.height-width-2 {
+  height: 300px;
+  background-color: #3b85fa;
+  color: #fff;
+}
+
+/* Padding */
+.without-padding,
+.padding {
+  background-color: #111;
+  color: #fff;
+}
+
+.padding {
+  padding: 20px;
+}
+
+/* Padding individual - em diferentes direcoes */
+.padding-individual {
+  background-color: #222;
+  color: #f7ae38;
+  padding-top: 25px;
+  padding-left: 200px;
+  padding-bottom: 50px;
+  padding-right: 100px;
+}
+
+.padding-directions {
+  background-color: #ff6200;
+  color: #fff;
+  width: 200px;
+  padding: 200px 90px 100px 150px;
+}
+
+/* Shorthand padding */
+.shorthand-padding {
+  background-color: #444;
+  color: #fff;
+  padding: 6px 12px 18px 24px; /* top right bottom left */
+}
+
+.shorthand-padding-2 {
+  background-color: #666;
+  color: #fff;
+  padding: 10px 20px; /* vertical horizontal */
+  /* padding: 10px 20px 10px 20px; */
+}
+
+/* Padding e width */
+.without-border-box {
+  background-color: #666;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+}
+
+/* Box sizing */
+.border-box {
+  background-color: #888;
+  color: #fff;
+  width: 400px;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+/* Bordas */
+.border {
+  border: 5px solid red;
+  padding: 10px;
+}
+
+.border-2 {
+  border: 5px solid #333;
+  padding: 25px;
+}
+
+/* Borda individual */
+.border-top {
+  border-top: 3px solid #ff6200;
+  background-color: #d3d3d3;
+  padding: 25px;
+}
+
+.border-right {
+  border-right: 3px solid #ff6200;
+  background-color: #d3d3d3;
+  padding: 25px;
+}
+
+.border-bottom {
+  border-bottom: 3px solid #ff6200;
+  background-color: #d3d3d3;
+  padding: 25px;
+}
+
+.border-left {
+  border-left: 5px double #ff6200; /* double -> borda dobrada */
+  background-color: #d3d3d3;
+  padding: 25px;
+}
+
+/* Borda arredondada */
+.rounded-p {
+  border: 1px solid #ff6200;
+  background-color: #eee;
+  padding: 15px;
+  border-radius: 15px;
+}
+
+.rounded-p-2 {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #d3d3d3;
+}
+
+/* Margin */
+.margin {
+  color: #fff;
+  margin: 10px;
+  background-color: #222;
+}
+
+.margin-top {
+  color: #fff;
+  margin-top: 10px;
+  background-color: #555;
+  padding: 10px;
+}
+
+.margin-shorthand {
+  color: #fff;
+  background-color: #807878;
+  margin: 10px 10px;
+}
+
+.margin-directions {
+  color: #fff;
+  background-color: #800;
+  margin: 50px 25px 50px 75px; /* top right bottom left */
+}
+
+/* Box model */
+/* Contem todas as propriedades anteriores*/
+.box-model {
+  margin: 20px;
+  padding: 15px 25px;
+  border: 1px solid #ff6200;
+  border-radius: 7px;
+  width: 200px;
+  height: 100px;
+  background-color: #eee;
+}
+
+/* Text align */
+
+.text-aligned {
+  background-color: #888;
+  color: #fff;
+  text-align: right;
+}
+
+/* centralizando */
+.container-center {
+  background-color: #d6d5d5;
+  text-align: center;
+  width: 100%;
+  border: 1px solid red;
+}
+
+/** Text decoration */
+.underline {
+  text-decoration: underline;
+}
+
+.line-trough {
+  text-decoration: line-through;
+}
+
+.remove-underline {
+  text-decoration: none;
+  color: #800;
+}
+
+/* Transformacao de texto */
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+/* Letter spacing (Espacamento entre letras) */
+.spacing {
+  letter-spacing: 10px;
+}
+
+/* Fontes */
+.serif {
+  font-family: Georgia;
+}
+
+.sans-serif {
+  font-family: Helvetica;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.cursive {
+  font-family: cursive;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/* Font style (Estilo de fonte) */
+.italic {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* Font weight  */
+.thin,
+.bold,
+.bolder {
+  font-family: Helvetica;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.bolder {
+  font-weight: 900;
+}
+
+/* Font size (tamanho de fonte) */
+
+.small {
+  font-size: 16px;
+}
+
+.large {
+  font-size: 50px;
+}
+
+/* Display */
+.inline-box {
+  width: 50px;
+  height: 50px;
+  background-color: #4f8;
+  margin: 10px;
+  display: inline-block;
+}
+
+.block {
+  background-color: #333;
+  display: block;
+  margin: 10px;
+  color: #fff;
+}
+
+/* Escondendo elementos */
+.invisible {
+  display: none;
+}
+
+
+/* Sobre as posicoes dos elementos */ 
+/* static, relative, absolute, Position relative com absolute,fixed, sticky */
+
+.static{
+  position: static;
+  background-color: #ada89d;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+}
+
+.relative{
+  position:relative;
+  background-color: #224;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  top: 100px;
+  left: 40px;
+}
+
+.absolute{
+  position: fixed;
+  background-color: #964;
+  color: #ffffff;
+  width: 100px;
+  height: 100px;
+  top: 2px;
+  right: 2px;
+}
+
+.relative-container{
+  width: 300px;
+  height: 300px;
+  border: 1px solid #ff6200;
+  margin-top: 120px;
+  background-color: #eee;
+  position: relative;
+}
+
+.absolute-1,
+.absolute-2{
+  width: 50px;
+  height: 50px;
+  background-color: #422;
+  position: absolute;
+}
+
+.absolute-1{
+  top: 10px;
+  left: 10px;
+}
+
+.absolute-2{
+  bottom: 10px;
+  right: 10px;
+}
+
+.fixed{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(217, 176, 123);
+  border: 1px solid #ff6200;
+  margin-top: 120px;
+  position: fixed;
+  top: 50px;
+  right: 100px;
+}
+
+.sticky{
+  width: 100px;
+  height: 100px;
+  background-color: rgb(217, 176, 123);
+  border: 1px solid #ff6200;
+  margin-top: 120px;
+  position: sticky;
+  top: 10px;
+}
+
+/* z-index */
+.absolute-3,
+.absolute-4,
+.absolute-5 {
+  width: 50px;
+  height: 50px;
+  background-color: #123;
+  position: absolute;
+}
+
+.absolute-3{
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.absolute-4{
+  top: 10px;
+  left: 10px;
+  background-color: #246;
+  z-index: 2;
+}
+
+.absolute-5{
+  top: 40px;
+  left: 40px;
+  background-color: #453;
+  z-index: 1;
+
+}
