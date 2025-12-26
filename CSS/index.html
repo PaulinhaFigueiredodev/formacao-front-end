@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+    <!-- 3 - Internal CSS -->
+    <!--
+     <style>
+        p {
+            color: goldenrod;
+            font-size: 20px;
+        }
+     </style>
+    -->
+    <!-- 4 - External CSS -->
+    <link rel="stylesheet" href="/CSS/css/styles.css" />
+    <!-- 6 - Multiplos CSS -->
+    <link rel="stylesheet" href="/CSS/css/lists.css" />
+    <!--Desafio 2 - CSS-->
+    <link rel="stylesheet" href="/CSS/css/titles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Abaixo todos os Exemplo da aula de CSS</h1>
+    </header>
+    <!-- 1 - Exemplo de CSS inline -->
+    <h1 style="color: blue" co>Mudar cor titulo com CSS inline</h1>
+    <h1 style="color: red">Outro titulo</h1>
+
+    <!-- 2 - Multiplas regras -->
+    <h1 style="color: purple; font-size: 50px; border-bottom: 1px solid red">
+      Mudar cor e tamanho da fonte via CSS online
+    </h1>
+
+    <!-- 3 - Internal CSS -->
+    <p>Este parágrafo está estilizado com CSS interno.</p>
+    <p>Outro parágrafo estilizado com CSS interno.</p>
+    <p>
+      Mais um paragrafo utilizando o CSS que vem da tag style dentro do head
+    </p>
+
+    <!-- 4 - External CSS -->
+    <h3>Meu titulo verde vindo do external CSS</h3>
+
+    <!-- 5 - Ordem do CSS-->
+    <p style="color: red">Ordem do CSS</p>
+    <p>Ordem do CSS 2</p>
+
+    <!-- 6 - Multiplos CSS -->
+    <ul>
+      <li>Banana</li>
+      <li>Maça</li>
+      <li>Abacate</li>
+    </ul>
+
+    <!-- 42 - Position sticky -->
+    <div class="sticky">
+      <span>Posição sticky</span>
+    </div>
+
+    <!-- 7 - Desafio 2 - CSS-->
+    <h4>Aqui esta um titulo h4 modificado para o desafio 2 de CSS</h4>
+
+    <!-- 8 - classes -->
+    <p class="paragraph">
+      1 - Este parágrafo utiliza uma classe CSS chamada "paragraph".
+    </p>
+
+    <p class="paragraph">
+      2 - Este parágrafo tambem utiliza uma classe CSS chamada "paragraph".
+    </p>
+
+    <p class="paragraph">
+      3 - Este parágrafo tambem utiliza uma classe CSS chamada "paragraph".
+    </p>
+
+    <!-- 9 - id -->
+    <h1 id="exclusive-title">Titulo com ID</h1>
+
+    <!-- 10 - Multiplas regras, ordem do css -->
+    <h2 id="algum-titulo" class="titulo">Titulo com ID e Classe 1</h2>
+    <h2 class="titulo">Titulo com ID e Classe 2</h2>
+    <h2>Titulo com ID e Classe 3</h2>
+
+    <!-- 11 - nome de cor -->
+    <p class="color-name">Qualquer texto para nomes de cores</p>
+
+    <!-- 12 - hex -->
+    <p class="color-hex">Qualquer texto para hex</p>
+
+    <!-- 13 - Mais sobre hex -->
+    <p class="simple-hex">Hex simplificado 1</p>
+    <p class="simple-hex-2">Hex simplificado 2</p>
+
+    <!-- 14 - RGB -->
+    <p class="rgb">Este foi estilizado com RGB</p>
+    <p class="mixed-rgb">Este foi estilizado com RGB</p>
+
+    <!-- 15 - RGBA -->
+    <p class="rgba">Este foi estilizado com RGBA</p>
+
+    <!-- 16 - HSL -->
+    <p class="hsl1">Este foi estilizado com HSL 1</p>
+    <p class="hsl2">Este foi estilizado com HSL 2</p>
+
+    <!-- 17 - Cores de fundo (background color)-->
+    <p class="bg">Texto com cor de fundo 1</p>
+    <p class="bg2">Texto com cor de fundo 2</p>
+
+    <!-- 18 - opacidade no bg -->
+    <div class="bg-opacity">
+      <p>Texto dentro de uma div com opacidade no background</p>
+    </div>
+    <br />
+
+    <div class="bg-opacity2">
+      <p>Texto dentro de uma div com opacidade no background 2</p>
+    </div>
+    <br />
+    <!-- 19 - opacidade com RGBA -->
+    <div class="rgba-opacity">Opacidade com RGBA</div>
+    <br />
+    <!-- 20 - BG image -->
+    <h1 class="bg-image">Este titulo tem uma imagem de fundo</h1>
+
+    <!-- 21 - Centralizar img de bg -->
+    <div class="not-centered-bg"></div>
+    <br />
+    <div class="centered-bg"></div>
+    <br />
+
+    <!-- 22 - Altura e largura (Height and width) -->
+    <div class="height-width">Box com altura e larguras definidas</div>
+    <br />
+    <div class="height-width-2">Segundo box com altura definida</div>
+    <br />
+
+    <!-- 23 - Padding -->
+    <div class="without-padding">Box sem padding</div>
+    <br />
+    <div class="padding">Box com padding de 20px</div>
+    <br />
+
+    <!-- 24 - Padding individual -  em diferentes direcoes -->
+    <p class="padding-individual">Box com paddings diferentes</p>
+    <div class="padding-directions">
+      Div com paddings diferentes na vertical e horizontal
+    </div>
+
+    <!-- 25 - Shorthand padding -->
+    <p class="shorthand-padding">Box com shorthand padding</p>
+    <p class="shorthand-padding-2">Box com shorthand padding 2</p>
+
+    <!-- 26 - Padding com width -->
+    <div class="without-border-box">
+      <p>Conteudo de paragrafo aqui</p>
+    </div>
+
+    <div class="border-box">
+      <p>Conteudo de paragrafo com border box</p>
+    </div>
+    <br />
+
+    <!-- 27 - Bordas -->
+    <div class="border">Borda 1</div>
+    <br />
+    <div class="border-2">
+      It is a long established fact that a reader will be distracted by the
+      readable content of a page when looking at its layout. The point of using
+      Lorem Ipsum is that it has a more-or-less normal distribution of letters
+    </div>
+
+    <!-- 28 - Bordas individuais -->
+    <p class="border-top">Borda no topo</p>
+    <p class="border-right">Borda na direita</p>
+    <p class="border-bottom">Borda embaixo</p>
+    <p class="border-left">Borda na esquerda</p>
+
+    <!-- 29 - Borda arredondada -->
+    <p class="rounded-p">Borda arredondada</p>
+    <p class="rounded-p-2">Borda arredondada</p>
+
+    <!-- 30 - Margin (margem)-->
+    <div class="margin">Eu tenho margem</div>
+    <br />
+    <div class="margin-top">Eu tenho margem no topo</div>
+    <br />
+    <div class="margin-shorthand">Eu tenho margem utilizando shorthand</div>
+    <br />
+    <div class="margin-directions">
+      Div com margens diferentes na vertical e horizontal: Lorem Ipsum is simply
+      dummy text of the printing and typesetting industry. Lorem Ipsum has been
+      the industry's standard dummy text ever since the 1500s, when an unknown
+      printer took a galley of type and scrambled it to
+    </div>
+
+    <!-- 31- Box model -->
+    <div class="box-model">Tenho todas as props de box model</div>
+
+    <!-- 32 - Text align -->
+    <div class="text-aligned">Texto alinhado a esquerda</div>
+    <br />
+
+    <div class="container-center">
+      <h2>Estamos centralizados</h2>
+      <p>Algum texto aqui para testar</p>
+    </div>
+
+    <!-- 33 - Text decoration -->
+    <p class="underline">Eu tenho um underline</p>
+    <p class="line-trough">Eu tenho um risco</p>
+    <a href="" class="remove-underline">Sem underline</a>
+
+    <!-- 34 - Text transform (Transformacao de texto) -->
+    <p class="upper">
+      Este texto é em caixa baixa porem alterei ele no css para caixa alta
+    </p>
+    <p class="lower">
+      ESTE TEXTO É EM CAIXA ALTA POREM ALTEREI ELE NO CSS PARA CAIXA BAIXA
+    </p>
+
+    <!-- 35 - Letter spacing (Espacamento entre letras)-->
+    <h2 class="spacing">Eu tenho um espacamento maior entre as letras</h2>
+
+    <!-- 36 - Fontes -->
+    <p class="serif">Serif fonte</p>
+    <p class="sans-serif">Sans Serif fonte</p>
+    <p class="monospace">Monospace fonte</p>
+    <p class="cursive">Cursive fonte</p>
+    <p class="fantasy">Fantasy fonte</p>
+
+    <!-- 37 - Font style (Estilo de fonte) -->
+    <p class="italic">Eu estou em italico</p>
+    <p class="oblique">Eu estou em obliquo</p>
+
+    <!-- 38 - Font weight -->
+    <p class="thin">Sou mais fino</p>
+    <p class="bold">Estou em bold</p>
+    <p class="bolder">Eu sou a maior fonte</p>
+
+    <!-- 39 - Font size (tamanho de fonte)-->
+    <h4 class="small">Titulo pequeno (font size small)</h4>
+    <h4 class="large">Titulo grande (font size large)</h4>
+
+    <!-- 40 - Display -->
+    <div class="inline-box">A</div>
+    <div class="inline-box">B</div>
+    <div class="inline-box">C</div>
+    <div class="block">D</div>
+    <div class="block">E</div>
+
+    <!-- 41 - Escondendo elementos -->
+    <p class="invisible">Me encontre se puder</p>
+
+    <!-- 42 - Sobre as posicoes dos elementos -->
+    <!-- Position static -->
+    <div class="static">
+      <span>Posição Static</span>
+    </div>
+    <br />
+    <!-- Position relative -->
+    <div class="relative">
+      <span>Posição relativa</span>
+    </div>
+    <p style="font-size: 50px">eu sou um paragrafo</p>
+    <br />
+
+    <!-- Position absolute  -->
+    <div class="absolute">
+      <span>Posição absoluta</span>
+    </div>
+    <p style="font-size: 50px">eu sou um outro paragrafo</p>
+    <br />
+
+    <!-- Position relative com absolute -->
+    <div class="relative-container">
+      <div class="absolute-1"></div>
+      <div class="absolute-2"></div>
+    </div>
+    <br />
+
+    <!-- Position fixed -->
+    <div class="fixed">
+      <span>Posição fixa</span>
+    </div>
+
+    <!-- 43 - z-index -->
+    <div class="relative-container">
+      <div class="absolute-3"></div>
+      <div class="absolute-4"></div>
+      <div class="absolute-5"></div>
+    </div>
+  </body>
+</html>
