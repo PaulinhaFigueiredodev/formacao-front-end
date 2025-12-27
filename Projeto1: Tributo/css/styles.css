@@ -9,7 +9,7 @@ html{
     position: relative;
     margin:  50px auto;
     padding: 20px 50px;
-    border-radius: 85px;
+    border-radius: 50px;
 }
 
 .bold{
@@ -39,19 +39,17 @@ html{
 
     & img{
         width: 100%;
-        border-radius: 85px;
+        border-radius: 22px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 }
 
-
-
 /* Imagem final */
 .img-bold{
-
-
     & img{
         width: 100%;
-        border-radius: 85px;
+        border-radius: 22px;
         margin-top: 30px;
+        box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     }
 }
