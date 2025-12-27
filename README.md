@@ -1,6 +1,7 @@
-# Portfólio Front-end — HTML, CSS, JavaScript, React e TypeScript
+# Formaçao Front-End
 
-Este repositório reúne projetos desenvolvidos ao longo da minha formação em **Front-end**, com foco na construção de interfaces modernas, responsivas e escaláveis.
+Este repositório reúne projetos desenvolvidos ao longo da minha formação em 
+[**Front-end**](https://www.udemy.com/course/formacao-front-end-html-css-javascript-react-e/)  com foco na construção de interfaces modernas, responsivas e escaláveis.
 
 Os projetos aqui apresentados cobrem desde os fundamentos da web até aplicações completas utilizando **React** e **TypeScript**, aplicando boas práticas de desenvolvimento e organização de código.
 
