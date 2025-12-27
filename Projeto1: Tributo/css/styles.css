@@ -1,15 +1,65 @@
+/* Importação de fontes serifadas que lembram jornais antigos */
+@import url('fonts.googleapis.com');
+
 html{
     font-family: Helvetica;
     background-color: #ddd;
 }
 
+
+/* Header */
+
+.newspaper-header {
+    background-color: #f5f5f5; /* Cor de fundo clara */
+    border-bottom: 2px solid #333; /* Linha grossa abaixo do header */
+    border-radius: 1px;
+    padding: 20px 0;
+    text-align: center;
+    background-repeat: repeat;
+}
+
+.header-content {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.newspaper-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    font-weight: 900;
+    /* Cor do título preta */
+    color: #000000;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+}
+
+.newspaper-header .subtitle {
+    /* subtítulo */
+    font-family: 'Lora', serif;
+    font-size: 18px;
+    color: #555;
+    margin: 0 0 15px 0;
+    font-style: italic;
+}
+
+.newspaper-header .date {
+    font-family: 'Lora', serif;
+    font-size: 14px;
+    color: #777;
+    margin: 0;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    padding: 5px 0;
+    display: inline-block;
+}
+
 .container{
     max-width: 1100px;
-    background-color: #fff;
+    background-color: #fffefe;
     position: relative;
     margin:  50px auto;
     padding: 20px 50px;
-    border-radius: 50px;
 }
 
 .bold{
@@ -17,13 +67,8 @@ html{
 }
 
 /** header */
-
-.header{
-    text-align: center;
-}
-
-.main-title{
-    font-size: 40px;
+.header-reportagem{
+    text-align: left;
 }
 
 .main-paragraph{
@@ -38,8 +83,9 @@ html{
     margin-top: 30px;
 
     & img{
-        width: 100%;
-        border-radius: 22px;
+        width: 70%;
+        margin-left: 100px;
+        border-radius: 10px;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 }
@@ -53,3 +99,5 @@ html{
         box-shadow: 0 6px 8px rgba(0, 0, 0, 0.1);
     }
 }
+
+
