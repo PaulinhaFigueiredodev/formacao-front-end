@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Formulários</title>
+  </head>
+  <body>
+    <!-- 1 - Primeiro formulário em HTML -->
+    <!-- 2 - Segundo formulário em HTML -->
+    <h2>Formulários em HTML</h2>
+    <form action="register.php" method="GET">
+      <div>
+        <label>Nome:</label>
+        <input type="text" />
+      </div>
+      <!-- 3 - atributo name -->
+      <div>
+        <!-- 4 - atributo label -->
+        <label for="age">Idade:</label>
+        <input type="text" name="age" />
+      </div>
+      <!-- 6 - select -->
+      <div>
+        <label for="job">Selecione sua profissão:</label>
+        <select name="job">
+          <option value="programador">Programador</option>
+          <option value="programador">Quality Assurance</option>
+          <option value="programador">Product Manager</option>
+          <option value="programador">SME</option>
+        </select>
+      </div>
+      <!-- 7 - Selected -->
+      <div>
+        <label for="contract">Você leu os termos do contrato?</label>
+        <select name="contract">
+          <option value="sim">Sim</option>
+          <option value="nao" selected>Não</option>
+        </select>
+      </div>
+      <!-- 8 - multiplas opcoes -->
+      <div>
+        <label for="items">Selecione o framework desejado:</label>
+        <select name="items" multiple>
+          <option value="angular">Angular</option>
+          <option value="react">React</option>
+          <option value="swiftUi">SwiftUi</option>
+          <option value="compose">Compose</option>
+          <option value="compose">Spring</option>
+        </select>
+      </div>
+      <!-- 9 - text area -->
+      <div>
+        <label for="comment">Escreva abaixo sua opinião sobre nosso processo:</label>
+        <textarea name="comment" cols="40" rows="8"></textarea>
+      </div>
+      <!-- 10 - fieldset e legend-->
+      <div>
+        <fieldset>
+          <legend>Preencha com suas informacoes de contato:</legend>
+          <label for="firstname">Nome:</label>
+          <input type="text" name="firstname">
+          <label for="lastname">Sobrenome:</label>
+          <input type="text" name="lastname">
+        </fieldset>
+      </div>
+
+      <!-- 5 - envio de form -->
+      <input type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
