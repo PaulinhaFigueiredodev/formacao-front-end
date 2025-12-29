@@ -1,17 +1,136 @@
-body{
-    background-color: rgb(223, 228, 228);
-    margin: 0;
+body {
+  background-color: rgb(223, 228, 228);
+  margin: 0;
 
-    & header{
-        padding-top: 15px;
-        text-align: center;
-        height: 100px;
-        width: 100%;
-        background-color: #b47979;
-        border-bottom: 2px solid black;
-    }
+  & header {
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
+    height: 100px;
+    color: #fdd9d9;
+    background-color: #b47979;
+    border-bottom: 3px solid #9c5f5f;
+  }
 }
 
-.primeiro-p{
-    text-align: center;
+h3 {
+  text-align: center;
+}
+
+/* Centralizando conteiner principal */
+.container-principal {
+  background-color: #ffffff;
+  padding-left: 80px;
+  padding-top: 10px;
+  height: 80vh;
+  border: 1px solid black;
+  width: 400px;
+  margin: auto;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* tag p para dados */
+.dados {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* estilizando o formulario */
+form {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+/* estilizando os divs do formulario */
+div input,
+div label {
+  display: block;
+}
+
+div label {
+  margin-bottom: 5px;
+}
+
+div input {
+  background-color: #ecdbdb;
+  margin-bottom: 10px;
+  height: 25px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid rgb(17, 14, 14);
+  padding-left: 5px;
+}
+
+/* select estado civil */
+select {
+  /* background */
+  background-color: #ecdbdb;
+
+  /* font */
+  font-style: italic;
+  font-weight: lighter;
+
+  /* size */
+  width: 310px;
+  height: 33px;
+
+  /* margin e padding */
+  margin-bottom: 10px;
+  padding-left: 5px;
+
+  /* borda */
+  border-radius: 8px;
+  border: 1px solid rgb(17, 14, 14);
+  outline: none; /* remove a borda ao clicar no input */
+}
+
+/* estilizando o botão de submit */
+a {
+  background-color: #b47979;
+  color: white;
+  font-weight: bold;
+  width: 150px;
+  border-radius: 8px;
+  padding: 8px;
+  text-decoration: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+
+.button-submit:hover,
+.button-cancel:hover { 
+  background-color: #9c5f5f; /* Efeito hover e active no botão */
+}
+
+.button-submit:active,
+.button-cancel:active {
+  box-shadow: none; /* Remove shadow on click para simular o click */
+}
+
+.div-btn{
+    margin-top: 20px;
+}
+
+
+/* Placeholder estilizado */
+input::placeholder {
+  font-style: italic;
+  font-weight: lighter;
+  padding-left: 5px;
+}
+
+input:focus {
+  outline: none; /* remove a borda ao clicar no input */
+  box-shadow: 0 0 5px #b47979;
+  border: 1px solid #b47979;
+}
+
+input[type="date"] {
+  padding-left: 10px;
+  font-style: italic;
+  /* size */
+  width: 295px;
+  height: 30px;
 }
