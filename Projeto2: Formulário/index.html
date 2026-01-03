@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalhando com Forms</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Container principal -->
+    <div class="container">
+      <!-- Cabeçalho -->
+      <div class="header">
+        <h3 class="h3-body">Cadastre seu gatinho para espalhar fofura</h3>
+      </div>
+      <!-- Formulário -->
+      <div class="form-container">
+        <div class="form-header">
+          <p>Formulário</p>
+        </div>
+        <div class="form-body">
+          <h1 class="form-title">Cadastre facil seu gato!</h1>
+          <p>Descreva as caracteristicas e marque os opcionais</p>
+          <form>
+            <div class="box-input">
+              <label for="name"
+                >Nome do gatinho:<span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="name"
+                id="name"
+                class="block"
+                placeholder="Nome que seu gatinho gosta de ser chamado"
+                minlength="1"
+                maxlength="30"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="dtn-gato"
+                >Data de nascimento:<span class="required-field">*</span></label
+              >
+              <input
+                type="date"
+                name="dtn-gato"
+                id="dtn-gato"
+                class="block"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="price"
+                >Idade: <span class="required-field">*</span></label
+              >
+              <input
+                type="number"
+                name="price"
+                id="price"
+                class="block"
+                placeholder="Insira a idade do seu gato"
+                minlength="1"
+                maxlength="50"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="raça"
+                >Raça <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="raça"
+                id="raça"
+                class="block"
+                placeholder="Digite a raça do seu gato"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <label for="pelagem"
+                >Cor da pelagem <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="pelagem"
+                id="pelagem"
+                class="block"
+                placeholder="Digite a pelagem do seu gato"
+                required
+              />
+            </div>
+            <div class="box-input">
+              <p>Sexo do gatinho:</p>
+              <input type="checkbox" id="femea" value="femea" />
+              <label for="femea">Femea</label><br />
+              <input type="checkbox" id="macho" value="macho" />
+              <label for="macho">Macho</label><br />
+            </div>
+            <div class="box-input">
+              <p>Qual a cor dos olhos?</p>
+              <input type="radio" id="verde" name="olhos" value="verde" />
+              <label for="verde">Verde</label><br />
+              <input type="radio" id="azul" name="olhos" value="azul" />
+              <label for="azul">Azul</label><br />
+              <input type="radio" id="castanho" name="olhos" value="castanho" />
+              <label for="castanho">Castanho</label><br />
+              <input
+                type="radio"
+                id="azul-claro"
+                name="olhos"
+                value="azul-claro"
+              />
+              <label for="azul-claro">Azul Claro</label><br />
+              <input type="radio" id="amarelo" name="olhos" value="amarelo" />
+              <label for="amarelo">Amarelo</label><br />
+            </div>
+            <div class="box-input">
+              <label for="description"
+                >Descriçao<span class="required-field">*</span></label
+              >
+              <textarea
+                name="description"
+                id="description"
+                class="block"
+                placeholder="Aqui você descreve as caracteristicas do seu gato, por exemplo: cor, tamanho, personalidade..."
+                minlength="1"
+                maxlength="500"
+                required
+              ></textarea>
+            </div>
+            <!-- Adiciona image -->
+            <div class="box-input">
+              <p>Fotos do gatinho:<span class="required-field">*</span></p>
+              <input
+                type="file"
+                multiple
+                accept="image/png, image/jpeg"
+                id="images"
+                name="images"
+                required
+              />
+            </div>
+            <input type="submit" value="Cadastrar" class="btn-submit" />
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
