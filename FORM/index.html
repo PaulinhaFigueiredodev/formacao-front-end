@@ -16,12 +16,15 @@
         <input type="text" />
       </div>
       <!-- 3 - atributo name -->
+      <!-- Aqui voce define o nome do campo que sera enviado no formulario -->
       <div>
         <!-- 4 - atributo label -->
+        <!-- Aqui voce associa o label ao input atraves do atributo for -->
         <label for="age">Idade:</label>
         <input type="text" name="age" />
       </div>
       <!-- 6 - select -->
+      <!-- Aqui voce cria uma lista suspensa para o usuario selecionar uma opcao -->
       <div>
         <label for="job">Selecione sua profissão:</label>
         <select name="job">
@@ -32,6 +35,8 @@
         </select>
       </div>
       <!-- 7 - Selected - ja vem com a opcao nao selecionada -->
+      <!-- Aqui voce define uma opcao padrao selecionada em um select -->
+
       <div>
         <label for="contract">Você leu os termos do contrato?</label>
         <select name="contract">
@@ -40,6 +45,7 @@
         </select>
       </div>
       <!-- 8 - multiplas opcoes -->
+      <!-- Aqui voce cria um select que permite selecionar mais de uma opcao -->
       <div>
         <label for="items">Selecione o framework desejado:</label>
         <select name="items" multiple>
@@ -51,20 +57,149 @@
         </select>
       </div>
       <!-- 9 - text area -->
+      <!-- Aqui voce cria uma caixa de texto maior para o usuario escrever mais -->
       <div>
-        <label for="comment">Escreva abaixo sua opinião sobre nosso processo:</label>
+        <label for="comment"
+          >Escreva abaixo sua opinião sobre nosso processo:</label
+        >
         <textarea name="comment" cols="40" rows="8"></textarea>
       </div>
       <!-- 10 - fieldset e legend-->
+      <!-- Aqui voce agrupa elementos relacionados em um formulario -->
       <div>
         <fieldset>
           <legend>Preencha com suas informacoes de contato:</legend>
           <label for="firstname">Nome:</label>
-          <input type="text" name="firstname">
+          <input type="text" name="firstname" />
           <label for="lastname">Sobrenome:</label>
-          <input type="text" name="lastname">
+          <input type="text" name="lastname" />
         </fieldset>
       </div>
+
+      <!-- 11 - Datalist -->
+      <!-- Aqui voce cria uma lista de opcoes que aparecem conforme o usuario digita no campo -->
+      <div>
+        <label for="flavor">Escolha sabor:</label>
+        <input type="text" list="flavors" name="flavor" />
+
+        <datalist id="flavors">
+          <option value="Chocolate"></option>
+          <option value="Baunilha"></option>
+          <option value="Morango"></option>
+          <option value="Napolitano"></option>
+        </datalist>
+      </div>
+
+      <!-- 12 Input para senha -->
+      <!-- Aqui voce cria um campo de input do tipo senha -->
+      <div>
+        <label for="password">Digite a sua senha:</label>
+        <input type="password" name="password" />
+      </div>
+
+      <!-- 14 - Input radio -->
+      <!-- Aqui voce cria um grupo de opcoes onde o usuario pode selecionar apenas uma -->
+      <div>
+        <label for="car_model">Escolha o modelo do seu caro:</label>
+        <div class="radio">
+          <input type="radio" value="Fiat Uno" name="car_model" />
+          <label for="car_model">Fiat Uno</label>
+        </div>
+        <div class="radio">
+          <input type="radio" value="Ford Ka" name="car_model" />
+          <label for="car_model">Ford Ka</label>
+        </div>
+        <div class="radio">
+          <input type="radio" value="Chevrolet Onix" name="car_model" />
+          <label for="car_model">Chevrolet Onix</label>
+        </div>
+        <div class="radio">
+          <input type="radio" value="Corolla" name="car_model" />
+          <label for="car_model">Corolla</label>
+        </div>
+      </div>
+
+      <!-- 15 - Checkbox -->
+      <!-- Aqui voce cria uma lista de opcoes onde o usuario pode selecionar mais de uma -->
+      <div>
+        <label for="optionals">Escolha suas cores de batom:</label>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="batom" />
+          <label for="batom">Rosa</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="batom" />
+          <label for="batom">Vermelho</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="batom" />
+          <label for="batom">Coral</label>
+        </div>
+        <div class="radio">
+          <input type="checkbox" name="optionals[]" value="batom" />
+          <label for="batom">Preto</label>
+        </div>
+      </div>
+
+      <!-- 16 - Input de datas -->
+      <!-- Aqui voce cria um campo de input do tipo data -->
+      <div>
+        <label for="birthday">Data de Nascimento:</label>
+        <input type="date" name="birthday" />
+      </div>
+
+      <!-- 17 - Input de arquivo -->
+       <!-- Aqui voce cria um campo de input do tipo arquivo para o usuario enviar um arquivo -->
+      <div>
+        <label for="resume">Envie seu currículo:</label>
+        <input type="file" name="resume" />
+      </div>
+
+      <!-- 18 - Input number -->
+       <!-- Aqui voce cria um campo de input do tipo numero -->
+      <div>
+        <label for="salary">Qual valor voce deseja abater?</label>
+        <input type="number" name="salary" />
+      </div>
+
+      <!-- 19 - Input e-mail -->
+      <!-- Aqui voce cria um campo de input do tipo email -->
+       <div>
+        <label for="email">Digite seu email:</label>
+        <input type="email" name="email" />
+      </div>
+
+      <!-- 20 - Atributo value -->
+       <!-- Aqui voce define um valor padrao para um campo de input -->
+      <div>
+        <label for="city">Cidade:</label>
+        <input type="text" name="city" value="São Paulo" />
+      </div>
+
+      <!-- 21 - Disabled -->
+       <!-- Aqui voce cria um campo de input que nao pode ser editado pelo usuario -->
+      <div>
+        <p>Tente digitar no campo:</p>
+        <input type="text"  disabled>
+      </div>
+
+      <!-- 22 - Placeholder -->
+       <!-- Aqui voce cria um texto de exemplo que desaparece quando o usuario começa a digitar -->
+       <div>
+        <label for="country">País:</label>
+        <input type="text" name="country" placeholder="Digite o nome do país" />
+       </div> 
+
+       <!-- 23 - Required -->
+        <!-- Aqui voce cria um campo de input que deve ser preenchido obrigatoriamente antes de enviar o formulario -->
+        <div>
+        <label for="phone">Telefone:</label>
+        <input type="text" placeholder="" name="phone" required />
+        </div>
+
+      <!-- 13 - resetar form -->
+      <!-- Aqui voce cria um botao para limpar todos os campos do formulario -->
+      <input type="reset" value="Limpar" />
 
       <!-- 5 - envio de form -->
       <input type="submit" value="Enviar" />
