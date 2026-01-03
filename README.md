@@ -38,8 +38,8 @@ Todo o aprendizado é consolidado por meio de projetos práticos.
 ## Projetos
 
 ### HTML e CSS
-- **Tributo à banda The Offspring** — Página estática com foco em semântica e layout  
-- **Página com formulário** — Estruturação e validação visual  
+- **Tributo à banda The Offspring** — Página estática com foco em semântica e layout [🔗 Ver projeto Tributo](./Projeto1:%20Tributo/ipad-index.html)
+- **Página com formulário** — Estruturação e validação visual [🔗 Ver projeto Formulários](./Projeto2:%20Formulário/index.html)
 - **HDC Host** — Landing page completa  
 - **Página de login estilo Instagram** — Layout responsivo  
 - **Blog semântico** — Uso correto de tags HTML e SEO básico  
