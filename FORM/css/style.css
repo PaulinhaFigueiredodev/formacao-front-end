@@ -1,0 +1,31 @@
+body {
+  padding-bottom: 500px;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+div input,
+div label {
+  display: block;
+}
+
+input[type="reset"],
+input[type="submit"] {
+  height: 25px;
+  width: 100px;
+  margin-top: 10px;
+  cursor: pointer;
+  background-color: rgb(190, 50, 50);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.radio label,
+.radio input,
+.radio span {
+  display: inline-block;
+}
