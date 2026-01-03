@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Prática de Forms CSS</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formulário Cadastro Pessoa Física.</h1>
+    </header>
+    <h3>Por favor antes de prosseguir preencha os dados abaixo:</h3>
+    <div class="container-principal">
+      <div class="dados">
+        <p>Dados Pessoais:</p>
+      </div>
+      <div>
+        <label for="nome">Nome Completo:</label>
+        <input type="text" id="nome" name="nome" required />
+      </div>
+      <div>
+        <label for="cpf">CPF:</label>
+        <input
+          type="text"
+          placeholder="000-000-000-00"
+          id="cpf"
+          name="cpf"
+          required
+        />
+      </div>
+      <div>
+        <label for="data-nascimento">Data de Nascimento:</label>
+        <input
+          type="date"
+          id="data-nascimento"
+          name="data-nascimento"
+          required
+        />
+      </div>
+      <div>
+        <label for="identidade">Carteira de Identidade:</label>
+        <input
+          type="text"
+          placeholder="12.345.678-9"
+          id="identidade"
+          name="identidade"
+          required
+        />
+      </div>
+      <div>
+        <label for="nacionalidade">Nacionalidade:</label>
+        <input type="text" id="nacionalidade" name="nacionalidade" required />
+      </div>
+      <div>
+        <label for="estado-civil">Estado Civil:</label>
+        <select name="estadocivil">
+          <option value="solteiro">Solteiro(a)</option>
+          <option value="casado">Casado(a)</option>
+          <option value="divorciado">Divorciado(a)</option>
+          <option value="viuvo">Viúvo(a)</option>
+        </select>
+      </div>
+      <div>
+        <label for="profissao">Profissão:</label>
+        <input type="text" id="profissao" name="profissao" required />
+      </div>
+      <div class="div-btn">
+        <a
+          class="button-submit"
+          href="https://www.google.com/"
+          target="_blank"
+          role="button"
+          aria-label="Ir para a página de destino"
+          >Cadastrar</a
+        >
+        <a
+          class="button-cancel"
+          href="https://www.google.com/"
+          target="_blank"
+          role="button"
+          aria-label="Ir para a página de destino"
+          >Cancelar
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
