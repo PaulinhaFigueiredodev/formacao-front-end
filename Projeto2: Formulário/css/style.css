@@ -9,11 +9,11 @@ body {
   background-color: #f6eff0;
 }
 
-.h3-body{
-    text-align: center;
-    font-size: x-large;
+.h3-body {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 20px;
 }
-
 
 h1,
 h2,
@@ -39,7 +39,7 @@ input[type="number"],
 input[type="date"],
 input[type="file"],
 textarea {
-  width: 400px;
+  width: 60%;
 }
 
 textarea {
@@ -123,25 +123,24 @@ textarea {
   text-transform: uppercase;
 }
 
-.btn-submit{
-    background-color: #8a4c57;
-    color: #fff;
-    border:  2px solid transparent;
-    width: 150px;
-    height: 50px;
-    cursor: pointer;
-    text-transform: uppercase;
-    transition: 0.5s;
-    border-radius: 15px;
+.btn-submit {
+  background-color: #8a4c57;
+  color: #fff;
+  border: 2px solid transparent;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: 0.5s;
+  border-radius: 15px;
 }
 
-.btn-submit:hover{
-    background-color: transparent;
-    color: #8a4c57;
-    border: 2px solid #8a4c57;
+.btn-submit:hover {
+  background-color: transparent;
+  color: #8a4c57;
+  border: 2px solid #8a4c57;
 }
 
 input[type="file"] {
   border: none;
 }
-
