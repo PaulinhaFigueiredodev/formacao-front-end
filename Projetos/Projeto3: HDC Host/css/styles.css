@@ -312,13 +312,46 @@ footer {
 
 /* Tablet */
 @media (max-width: 900px) {
-    .main-banner p {
-        padding: 0 6rem;
-    }
+  .main-banner p {
+    padding: 0 6rem;
+  }
 
-    .searchdomain-container {
-
-        padding: 4rem;
-    }
+  .search-domain-container {
+    padding: 4rem;
+  }
 }
 
+/* celular 576px */
+@media (max-width: 576px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-items li {
+    font-size: 2px;
+    margin-left: 10px;
+  }
+
+  .navbar-items ul {
+    flex-direction: column;
+  }
+
+  .main-banner p {
+    padding: 0 2rem;
+  }
+
+  .plans-container {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .plan {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-container {
+    padding: 2rem 2rem;
+  }
+}
