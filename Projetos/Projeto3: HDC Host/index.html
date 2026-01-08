@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HDC Host</title>
+    <!-- Icons CDNJs (icones) -->
+    <!-- font-awesome
+The iconic SVG, font, and CSS toolkit -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- CSS Styles (estilos) -->
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="navbar-container">
+        <nav>
+          <a href="#">
+            <img src="img/hdchostlogo.png" alt="hDC Host" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li>
+              <a href="./index.html">Home</a>
+            </li>
+            <li>
+              <a href="#">Preços</a>
+            </li>
+            <li>
+              <a href="#">Contato</a>
+            </li>
+            <li>
+              <a href="#" class="default-btn">Entrar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!-- Main Content -->
+      <main>
+        <div class="main-banner">
+          <h1>hDC Host</h1>
+          <p>Os melhores serviços para projetos de todos os tamanhos!</p>
+        </div>
+        <section class="services-container">
+          <ul>
+            <li>
+              <i class="fas fa-shield-alt"></i>
+              <h3>Segurança</h3>
+              <p>
+                Utilizamos soluções avançadas de segurança para proteger seu domínio, garantindo confiabilidade, integridade dos dados e proteção contra acessos não autorizados.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-rocket"></i>
+              <h3>Performance</h3>
+              <p>
+                Oferecemos infraestrutura otimizada para alto desempenho, assegurando rapidez no acesso e estabilidade contínua para seus serviços online.
+              </p>
+            </li>
+            <li>
+              <i class="fas fa-comments"></i>
+              <h3>Suporte 24/7</h3>
+              <p>
+                Nossa equipe especializada está disponível 24 horas por dia, 7 dias por semana, pronta para auxiliar em qualquer necessidade relacionada ao seu domínio.
+              </p>
+            </li>
+          </ul>
+        </section>
+        <!-- Planos e preços -->
+        <section class="pricing-container">
+          <h2>Planos e Preços</h2>
+          <p>Selecione o plano que atende as suas necessidades</p>
+          <div class="plans-container">
+            <!-- Basic Plan -->
+            <div class="plan">
+              <ul>
+                <li class="price">R$15/mês</li>
+                <li class="plan-name">Básico</li>
+                <li>2GB de espaço</li>
+                <li>5 Subdomínios</li>
+                <li>25 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <!-- Standard Plan -->
+            <div class="plan">
+              <ul>
+                <li class="price">R$30/mês</li>
+                <li class="plan-name">Dedicado</li>
+                <li>5GB de espaço</li>
+                <li>15 Subdomínios</li>
+                <li>50 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+            <!-- Recommended Plan -->
+            <div class="plan">
+              <ul>
+                <li class="price recommended">R$50/mês</li>
+                <li class="plan-name">Dedicado Plus</li>
+                <li>10GB de espaço</li>
+                <li>30 Subdomínio</li>
+                <li>75 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn recommended">Saber mais</li>
+              </ul>
+            </div>
+            <!-- Cloud Plan -->
+            <div class="plan">
+              <ul>
+                <li class="price">R$100/mês</li>
+                <li class="plan-name">Cloud</li>
+                <li>20GB de espaço</li>
+                <li>60 Subdomínios</li>
+                <li>100 contas de e-mail</li>
+                <li>C-panel</li>
+                <li>Suporte 24/7</li>
+                <li class="plan-btn">Saber mais</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <!-- Domain Search -->
+        <section class="search-domain-container">
+          <h2>Qual domínio você quer para o seu site?</h2>
+          <p>Verifique  aqui se o domínio está disponível.</p>
+          <form>
+            <input
+              type="text"
+              name="domain"
+              id="domain"
+              placeholder="Digite o domínio desejado"
+            />
+            <input type="submit" value="Procurar dominio" />
+          </form>
+        </section>
+        <!-- Contact Form -->
+        <section class="contact-container">
+          <h2>Mande uma mensagem</h2>
+          <p>
+            Envie sua mensagem, em até 4 horas um especialista entrará em
+            contato.
+          </p>
+          <form>
+            <input type="text" name="name" id="name" placeholder="Seu nome" />
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Seu e-mail"
+            />
+            <textarea
+              name="message"
+              id="message"
+              placeholder="Descreva o que você precisa ou o seu projeto..."
+            ></textarea>
+            <input type="submit" value="Entrar em contato" href="#" />
+          </form>
+        </section>
+      </main>
+      <!-- Footer -->
+      <footer>hDC Host @ 2025</footer>
+    </div>
+  </body>
+</html>
